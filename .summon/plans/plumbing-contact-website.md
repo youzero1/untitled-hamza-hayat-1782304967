@@ -1,5 +1,5 @@
 ---
-status: pending
+status: building
 title: Plumbing business website with contact form
 ---
 

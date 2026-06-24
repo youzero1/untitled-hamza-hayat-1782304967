@@ -1,7 +1,21 @@
+import Header from '@/components/Header';
+import Hero from '@/components/Hero';
+import TrustBar from '@/components/TrustBar';
+import Services from '@/components/Services';
+import About from '@/components/About';
+import ContactSection from '@/components/ContactSection';
+import Footer from '@/components/Footer';
+
 export default function Home() {
   return (
-    <div className="min-h-screen flex items-center justify-center text-[color:var(--color-muted)]">
-      Clearflow Plumbing — loading…
+    <div id="top" className="min-h-screen">
+      <Header />
+      <Hero />
+      <TrustBar />
+      <Services />
+      <About />
+      <ContactSection />
+      <Footer />
     </div>
   );
 }
